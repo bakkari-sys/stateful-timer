@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.full-timer-container{
+  width: 250px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.timer-form{
+  font-size: 40px;
+}
+
+.timer-comment{
+  font-size: 10px;
+  color: grey;
+}
+
+.btn{
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
